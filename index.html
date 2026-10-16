@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Halovat — матрасы / matraslar</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="wrap nav">
+<div class="logo"><i></i>HALOVAT</div>
+<a href="#catalog" data-i="n1"></a><a href="#why" data-i="n2"></a><a href="#contact" data-i="n3"></a>
+<div class="lang"><button data-l="ru">RU</button><button data-l="uz">UZ</button></div>
+<button class="cartbtn" id="cartBtn">🛒 <span data-i="cart"></span><b id="cnt">0</b></button>
+</div></header>
+
+<div class="hero" id="hero">
+<div class="moon"></div>
+<div class="wrap">
+<div><h1 id="h1"></h1><p data-i="hp"></p><a class="cta" href="#catalog" data-i="hc"></a></div>
+<div class="bed">
+<span class="z" style="left:48%;top:18%;font-size:28px">Z</span><span class="z" style="left:52%;top:22%;font-size:20px;animation-delay:1.3s">z</span><span class="z" style="left:44%;top:25%;font-size:24px;animation-delay:2.6s">Z</span>
+<svg viewBox="0 0 400 260" id="heroSvg"></svg>
+</div></div></div>
+
+<div class="marq"><div id="mq"></div></div>
+
+<section id="catalog"><div class="wrap">
+<h2 class="rv" data-i="ct"></h2><p class="sub rv" data-i="cs"></p>
+<div class="chips rv" id="chips"></div>
+<div class="grid" id="grid"></div>
+</div></section>
+
+<div class="stats"><section style="padding:54px 0"><div class="wrap">
+<div><b data-n="9">0</b><span data-i="s1"></span></div>
+<div><b data-n="5">0</b><span data-i="s2"></span></div>
+<div><b data-n="726">0</b><span data-i="s3"></span></div>
+<div><b data-n="100">0</b><span data-i="s4"></span></div>
+</div></section></div>
+
+<section id="why"><div class="wrap">
+<h2 class="rv" data-i="wt"></h2><p class="sub rv" data-i="ws"></p>
+<div class="feats" id="feats"></div>
+</div></section>
+
+<footer id="contact"><div class="wrap"><b>HALOVAT</b><p data-i="ft"></p><p style="margin-top:8px">© 2026 Halovat</p></div></footer>
+
+<div class="ov" id="ov"></div>
+<aside class="drawer" id="drawer"></aside>
+<div class="modal" id="modal"></div>
+
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/pixel.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
